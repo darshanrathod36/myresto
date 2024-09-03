@@ -2,6 +2,9 @@
 .env
 .env*
 
+config
+config.env
+
 # Node modules
 node_modules/
 
@@ -10,7 +13,8 @@ dist/
 build/
 dist-ssr/
 
-# OS-specific files
+# OS-specific filesgit rm --cached config.env
+
 .DS_Store
 Thumbs.db
 
